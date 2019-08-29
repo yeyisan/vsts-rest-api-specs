@@ -1,5 +1,6 @@
 # Starter pipeline
 
+
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
@@ -19,8 +20,8 @@ steps:
     CheckmarxService: 'checkmarx'
     projectName: 'SampleProject'
     preset: 'Checkmarx Default'
-    fullTeamName: 'Team'
+    fullTeamName: 'Users'
     incScan: true
-    high: '4'
-    medium: '5'
-    low: '43'
+    high: '5'
+    medium: '10'
+    low: '33'
