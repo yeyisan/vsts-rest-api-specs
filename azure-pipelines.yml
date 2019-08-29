@@ -1,5 +1,5 @@
 # Starter pipeline
-task: 
+- task: Security static source code analysis@88
   inputs:
     CheckmarxService: 'checkmarx'
     projectName: 'SampleProject'
